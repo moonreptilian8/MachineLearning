@@ -1,0 +1,73 @@
+------set/apend--------------------------
+#Listas:
+
+Lista = [1,2,3,1,2,3,1]
+list(set(1,2,3)) = [1, 2, 3]
+Pasar de una lista que se repite a set sin repetir, y lo pone como lista otra vez. 
+-----------------------------------//
+#Diccionario:
+
+diccionario= {0:1,1:2,2:3,3:4}
+diccionario[0]
+agenda={"Luis":6666666,"Pepe":9999999}
+agenda["Luis"]
+
+and solo responde si es True a los dos lados.
+---------------------------------//
+#Los bucles para las listas:
+
+·Forma fácil:(FOR)
+
+·Forma difícil:(WHILE)
+---------------------------------//
+Variables: sus estados son 4.
+ # 1- que no exista porque no ha sido declarado antes.  (undefined)
+ # 2- cuando una variable vale nada ('none') = None (python). Para cuando no tiene contenido y se encuentra vacía esa variable.
+ # 3- cada tipo de variable vacía que ocupa pero no tiene elementos dentro, se representa con [] (Lista = []) equivalen a 1 False
+*numero = 0
+*decimal = 0.0
+*texto = ""
+ #4- cuando tiene estado, existe, tiene tipo y contenido equivalen a 0 True.
+*Lista = [1,2,3,4,5]
+*texto = "Hola"
+*entero = -65
+---------------------Space x -----------//---------------------------------//---------------------------------//---------------------------------//
+bit.ly/spacex001
+nombredelalibrería.funcion()
+request.get(url)
+df[]-una columna
+df[[]]- dos o más columnas
+-----------// Para configurar el sitio//----
+*Herramientas : editor: ... para poner lineas y numeros de filas. 
+*[Tabulador]-1-->para adelante
+*[shift+tabular]-1-->para atrás
+
+data.head()- solo sirve para dataframe
+[0:5] para escoger los primeros dentro de un dataframe
+------------ para encontrar columna y aplicar condición en esa columna-------------/////
+condición = launch_data["boosterversion"] == [Falcon 9]---tipo de cohete que queremos
+comparar == "Falcon 9" por ejemplo (true/false) #condición
+data_falcon9 = launch_data[condición]
+data_falcon9
+función isnull().sum()- para quitar nulos y contar las filas. 
+df.dropna()
+*df.fullna(0)
+media = data_x ["nombre"]/
+*media--> .mean()
+Seleccionamos la columna a la que aplicamos los cambios:
+data_falcon9['PayloadMass'].replace(np.nan,media)
+data_falcon9['PayloadMass'] = nuevos_kilos
+data_falcon9
+---------------------------------//---------------------------------///
+data_falcon9.isnull().sum() nos quita todos los nulls y nos da por completo la tabla con toda la información que necesitamos. 
+.map y lambda se pueden aplicar a la misma columna en una frase. 
+.join(map(str,x))-----> asegura que la salida sea str. 
+para importar desde un archivo: 
+dataset_part_1.csv = data_falcon9.to_csv()
+data_falcon9.to_csv(data_falcon9.to_csv())
+//index: bool , default True//
+
+---------------------------------//---------------------------------//---------------------------------//---------------------------------//
+Hacer carpeta en Github
+Acabar ejercicios Space X
+https://site.educa.madrid.org/ies.icaro.getafe/index.php/2022/06/03/ingles/
